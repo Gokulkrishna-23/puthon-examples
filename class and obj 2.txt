@@ -1,0 +1,200 @@
+class laptop:
+    price="50,000"
+    processor="15"
+    ram="16gb"
+    def chennai(sale):
+        print("sold in chennai")
+    def online(sale):
+        print("sold in online ")
+
+
+hp=laptop()
+dell=laptop()
+lenova=laptop()
+
+
+
+hp.price="75,000"
+hp.processor="20"
+
+dell.price="65,000"
+
+
+print("HP:",hp.price)
+print(hp.processor)
+print(hp.ram)
+hp.chennai()
+
+print("dell:",dell.price)
+print(dell.processor)
+print(dell.ram)
+dell.chennai()
+
+
+
+print("lenova: price:",lenova.price)
+print("processor:",lenova.processor)
+print("ram:",lenova.ram)
+lenova.online()
+
+
+
+
+class kodai:
+    name=""
+    age="22"
+    planedplace=""
+    def trip(outing):
+        print("peaks")
+        print("falls")
+        print("hotel")
+        print("room")
+
+    def temple(outing):
+        print("siva tem")
+        print("murugar temp")
+        print("park")
+        print("hotel")
+        print("room")
+
+    def photo(outing):
+        print("forest")
+        print("boat house")
+        print("hotel")
+        print("room")
+
+
+
+gokul=kodai()
+bharath=kodai()
+deekan=kodai()
+deepaku=kodai()
+prakesh=kodai()
+
+gokul.name="Gokul"
+bharath.name="Bharath"
+deekan.name="Deekan"
+deepaku.name="deepaku"
+prakesh.name="prakesh"
+
+gokul.planedplace="temple"
+bharath.planedplace="trip"
+deekan.planedplace="trip"
+deepaku.planedplace="photo"
+prakesh.planedplace="photo"
+
+
+
+print(gokul.name)
+print(gokul.age)
+print(gokul.planedplace)
+gokul.temple()
+
+
+print(bharath.name)
+print(bharath.planedplace)
+print(bharath.age)
+bharath.trip()
+
+print(deekan.name)
+print(deekan.age)
+print(deekan.planedplace)
+deekan.trip()
+
+
+print(deepaku.name)
+print(deepaku.age)
+print(deepaku.planedplace)
+deepaku.photo()
+class student:
+    def __init__(self):
+        self.name="unknown"
+        self.reg_no="xxxxxx"
+    def display(self):
+        print("std name:", self.name)
+        print("regno.:",self.reg_no)
+
+
+
+
+ram=student()
+sam=student()
+
+sam.name="SAM"
+ram.reg_no="12345"
+
+
+ram.display()
+sam.display()
+
+class fruit:
+    def __init__(self,col):
+        self.color=col
+    
+
+
+
+
+apple=fruit("red")
+print(apple.color)
+
+
+class teacher:
+    def __init__(self,name1,reg):
+        self.name=name1
+        self.reg_no=reg
+    def display(self):
+        print("T:",self.name)
+        print("reg no:",self.reg_no)
+    
+
+
+
+
+t1=teacher("aisha","25")
+t2=teacher("bama","26")
+
+t1.display()
+t2.display()
+
+
+class calculator:
+    def __init__(self,a,b):
+        self.val1=a
+        self.val2=b
+        
+    def add(self):
+        print("addition:",self.val1+self.val2)
+    def sub(self):
+        print("subtrction:",self.val1-self.val2)
+    
+    
+
+
+
+
+num1=calculator(5,15)
+
+num1.add()
+num1.sub()
+        
+phone=input("")
+dit={
+    "1" : "one",
+    "2": "Two",
+    "3" : "Three",
+    "4" : "four"
+    }
+output=""
+for ch in phone:
+   
+    output=output+dit.get(ch, "!") +" "
+print(output)
+
+
+
+
+
+
+
+
